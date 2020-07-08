@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Github Action To Telegram
-        uses: gsi-dayronrafael/telewire@telebot
+        uses: gsi-dayronrafael/telewire@master
         with:
           chat: ${{ secrets.chat }}
           token: ${{ secrets.token }}
