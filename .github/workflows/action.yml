@@ -2,9 +2,10 @@
 name: Bot will notify PR is merged
 
 on:
-  push:
   pull_request:
     types: [closed]
+    branches:
+      - beta-release
 
 jobs:
   build:
