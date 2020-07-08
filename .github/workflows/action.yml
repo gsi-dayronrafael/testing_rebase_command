@@ -1,5 +1,5 @@
 
-name: Bot will notify PR is merged
+name: BotNotifyPRisMerged
 
 on:
   pull_request:
