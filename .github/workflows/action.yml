@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - name: <AnyName>
-        uses: <username>/<repo>@master
+        uses: gsi-dayronrafael/telewire@master
         if: always()
         with:
           chat: ${{ secrets.chat }}
