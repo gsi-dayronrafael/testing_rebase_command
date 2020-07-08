@@ -1,4 +1,4 @@
-name: Botd Notify PR is Merged on beta-release branch
+name: Bot Notify PR is Merged on beta-release branch
 
 on:
   pull_request:
