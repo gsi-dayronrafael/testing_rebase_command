@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: <AnyName>
+      - name: GitHubNotifyTelegram
         uses: gsi-dayronrafael/telewire@master
         if: always()
         with:
